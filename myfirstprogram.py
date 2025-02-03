@@ -11,6 +11,5 @@ print(f"Course:- {course}")
 print(f"University:- {uniname}")
 print("**********************")
 print("**********************")
-print("**********************")
-
+ 
 
