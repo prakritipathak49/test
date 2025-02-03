@@ -1,20 +1,14 @@
-name = input("Enter your Name:- ")
-course = input("Enter Course Name:- ")
-uniname = input("Enter Uni Name:- ")
+def guess_weight(age, height):
+    # A simple formula to guess weight
+    weight = (height - 100 + age / 10) * 0.9
+    return weight
 
-print()
-print()
-print("**********************")
-print("**********************")
-print(f"First Name:- {name}")
-print(f"Course:- {course}")
-print(f"University:- {uniname}")
-print("**********************")
-print("**********************")
- 
+def main():
+    age = int(input("Enter your age: "))
+    height = float(input("Enter your height in cm: "))
+    
+    weight = guess_weight(age, height)
+    print(f"Based on your age and height, your guessed weight is: {weight:.2f} kg")
 
- Bla 
- bla __build_class__
- bla  
- bla bla 
-
+if __name__ == "__main__":
+    main()
